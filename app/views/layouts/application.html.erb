@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rails 3.2 + Compass + Sprites</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="top">      
+      <ul id="subscribe" class="horizontal">
+        <li><a class="icons-itunes" href="/itunes"></a></li>
+        <li><a class="icons-twitter" href="/twitter"></a></li>
+        <li><a class="icons-facebook" href="/facebook"></a></li>
+        <li><a class="icons-rss" href="/rss"></a></li>
+      </ul>
+    </div>
+    <div id="nav_bar"'>
+    
+    </div>
+
+    <div id="main">
+      <%= yield %>
+    </div>
+  </body>
+</html>

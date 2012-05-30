@@ -1,0 +1,23 @@
+!!!
+%html
+	%head
+		%title ### Rails 3.2 Haml Compass Sprites ###
+		=	stylesheet_link_tag "application", media: "all"
+		= javascript_include_tag "application"
+		= csrf_meta_tags
+	%body
+		#top
+			%ul#subscribe.horizontal
+				%li 
+					%a.icons-itunes(href="/itunes" title="Itunes")
+				%li 
+					%a.icons-twitter(href="/twitter")
+				%li
+					%a.icons-facebook(href="/facebook")
+				%li
+					%a.icons-rss(href="/rss")
+		#nav_bar
+			%h2	 @include background-image(linear-gradient(#bcb5b5, #141111))
+			 			 
+		#main
+			= yield

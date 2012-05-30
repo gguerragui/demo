@@ -11,11 +11,11 @@
 				%li 
 					%a.icons-itunes(href="/itunes" title="Itunes")
 				%li 
-					%a.icons-twitter(href="/twitter")
+					%a.icons-twitter(href="/twitter" title="Twitter")
 				%li
-					%a.icons-facebook(href="/facebook")
+					%a.icons-facebook(href="/facebook" title="Facebook")
 				%li
-					%a.icons-rss(href="/rss")
+					%a.icons-rss(href="/rss" title="Feed RSS")
 		#nav_bar
 			%h2	 @include background-image(linear-gradient(#bcb5b5, #141111))
 			 			 
